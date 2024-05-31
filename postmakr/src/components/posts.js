@@ -3,7 +3,9 @@ import axios from "axios"
 import { useNavigate } from 'react-router-dom';
 import PostTab from "./postTab";
 
+
 const PostPage = () =>{
+    
 
     const[post,setPost] = useState(null)
     const[newposts,setNewPost] = useState([])

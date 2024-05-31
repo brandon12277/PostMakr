@@ -14,7 +14,7 @@ const PostTab = ({name,photo,post}) =>{
 
             <div className="flex items-center justify-start gap-4 p-4">
 
-                <img className="w-16 h-16 rounded-full border border-black" src={photo}></img>
+                <img className="w-12 h-12 rounded-full border border-black" src={photo}></img>
                 <h1 className="text-xl font-semibold poppins">{name}</h1>
 
             </div>

@@ -212,14 +212,19 @@ export default function SignUp() {
         pauseOnHover
       />
       
-        <div className="poppins bck flex h-screen  flex-col justify-center items-center px-6 py-12 lg:px-8">
+
+      
+      
+        <div className=" poppins  flex h-screen  flex-col justify-center items-center px-6 py-12 ">
+        <div className="shadow-lg w-full sm:w-[30rem] py-10 px-6">
+
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
             
             <h2 className="mt-14 text-center text-2xl font-bold leading-9 tracking-tight ">
               Sign Up 
             </h2>
           </div>
-          <div className="w-full flex items-center justify-center">
+          <div className="flex items-center justify-center">
 
           <div onClick={handleButtonClick} className="img_div mt-10 cursor" htmlFor="upload" style={{ backgroundImage: `url(${formData.image})` }}>
          <input ref={fileInputRef} style={{display:"none"}}  type="file" name="file" onChange={handleImageChange}  id="upload" accept="image/png, image/jpg, image/jpeg"></input>
@@ -247,7 +252,7 @@ export default function SignUp() {
             <div className="space-y-6" action="#" method="POST">
 
             <div className="flex items-center justify-between">
-                <label htmlFor="email" className="block text-sm font-medium leading-6 text-white">
+                <label htmlFor="email" className="block text-sm font-medium leading-6 ">
                   Name
                 </label>
                 
@@ -265,7 +270,7 @@ export default function SignUp() {
                 </div>
 
               <div className="flex items-center justify-between">
-                <label htmlFor="email" className="block text-sm font-medium leading-6 text-white">
+                <label htmlFor="email" className="block text-sm font-medium leading-6">
                   Email address
                 </label>
                 
@@ -284,7 +289,7 @@ export default function SignUp() {
   
               
                 <div className="flex items-center justify-between">
-                  <label htmlFor="password" className="block text-sm font-medium leading-6 text-white">
+                  <label htmlFor="password" className="block text-sm font-medium leading-6 ">
                     Password
                   </label>
                   
@@ -303,7 +308,7 @@ export default function SignUp() {
                 </div>
 
                 <div className="flex items-center justify-between">
-                  <label htmlFor="password" className="block text-sm font-medium leading-6 text-white">
+                  <label htmlFor="password" className="block text-sm font-medium leading-6 ">
                     Confirm Password
                   </label>
                   
@@ -332,7 +337,7 @@ export default function SignUp() {
                   type="submit"
                   onClick={()=>{setLoading(1) 
                     handleSignup()}}
-                  className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Sign in
                 </button>
@@ -354,7 +359,9 @@ export default function SignUp() {
   
        
           </div>
+          </div>
         </div>
+        
       </>
     )
   }

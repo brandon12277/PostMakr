@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route,Routes, Switch, Link } from 'react-route
 function App() {
   return (
     <div className="App"> 
+    
     <Navbar/>
        <Router>
        <Routes>
