@@ -3,13 +3,13 @@
 
 ### ➡️ LOGIN PAGE
 
-![Alt text]([https://ibb.co/ysDzPKg](https://www.imghippo.com/i/T4F711717161804.jpg))
+![Alt text](https://www.imghippo.com/i/T4F711717161804.jpg)
 
 ### ➡️ SIGN UP PAGE
 
-![Alt text](https://ibb.co/zQPPJzP)
+![Alt text](https://www.imghippo.com/i/AEFC61717161979.jpg)
 
 ### ➡️ POST PAGE
 
-![Alt text](https://ibb.co/9HTvh7m)
+![Alt text](https://www.imghippo.com/i/1gA0j1717162017.jpg)
 
