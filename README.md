@@ -3,11 +3,11 @@
 
 ### ➡️ LOGIN PAGE
 
-![Alt text](https://www.imghippo.com/i/T4F711717161804.jpg)
+![Alt text](https://firebasestorage.googleapis.com/v0/b/speaksphere-db501.appspot.com/o/profile%2Fbandicam%202024-05-31%2015-52-58-833.jpg?alt=media&token=f28b2e93-ca4e-4064-be5b-0f119f5057ae)
 
 ### ➡️ SIGN UP PAGE
 
-![Alt text](https://www.imghippo.com/i/AEFC61717161979.jpg)
+![Alt text](https://firebasestorage.googleapis.com/v0/b/speaksphere-db501.appspot.com/o/profile%2Fbandicam%202024-05-31%2015-53-07-775.jpg?alt=media&token=4fd7ae23-fbcb-4420-a867-c84104de443f)
 
 ### ➡️ POST PAGE
 
