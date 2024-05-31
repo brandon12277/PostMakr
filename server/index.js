@@ -9,6 +9,14 @@ const cors = require('cors');
 const app = express()
 port = process.env.PORT || 5000
 
+const intervalDuration = 5 * 60 * 1000;
+
+setInterval(()=>{
+
+  console.log("hello")
+
+},intervalDuration)
+
 
 
 const router = require('./Routes/index');
