@@ -201,6 +201,10 @@ export default function Login() {
       />
            }
               </div>
+              <div className="w-full flex items-center justify-center">
+                <p className="poppins">Dont have an account? <a className="text-indigo-800" href="/SignUp">Sign Up</a></p>
+
+              </div>
             </div>
   
        
